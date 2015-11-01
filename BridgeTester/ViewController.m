@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "WebViewJavascriptBridge.h"
 
 @interface ViewController ()
+@property WebViewJavascriptBridge *bridge;
+@property(nonatomic, strong) UIWebView *webView;
 
 @end
 
@@ -17,6 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
+    [self.view addSubview:self.webView];
+    
+    self.bridge = [WebViewJavascriptBridge bridgeForWebView:self.webView handler:^(id data, WVJBResponseCallback responseCallback) {
+        NSLog(@"Received message from javascript: %@", data);
+        responseCallback(@"Right back atcha");
+    }];
+    
+    NSURL *url = [NSURL URLWithString:@"http://h.test.ele.me/selecthongbao"];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    [self.webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning {
