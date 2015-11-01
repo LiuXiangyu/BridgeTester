@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "562D8C0936A4AEE7CCBEEE67BA8AB1CF4B7131A9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B5A3CDA855FF6BFCCD6E5A5765DE9F78BE640C7A" : 0,
+    "562D8C0936A4AEE7CCBEEE67BA8AB1CF4B7131A9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48D99ADD-E0E3-4A90-8FCE-6E2331B6B9F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B5A3CDA855FF6BFCCD6E5A5765DE9F78BE640C7A" : "..\/workplace\/WebViewJavascriptBridge",
+    "562D8C0936A4AEE7CCBEEE67BA8AB1CF4B7131A9" : "BridgeTester\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BridgeTester",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BridgeTester.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiuXiangyu\/BridgeTester.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "562D8C0936A4AEE7CCBEEE67BA8AB1CF4B7131A9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/marcuswestin\/WebViewJavascriptBridge.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5A3CDA855FF6BFCCD6E5A5765DE9F78BE640C7A"
+    }
+  ]
+}
